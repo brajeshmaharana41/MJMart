@@ -19,6 +19,7 @@
     "react-avatar": "^3.10.0",
     "react-native": "0.64.0",
     "react-native-gesture-handler": "^1.10.3",
+    "react-native-image-slider-box": "^1.0.12",
     "react-native-ionicons": "^4.6.5",
     "react-native-paper": "^4.8.1",
     "react-native-reanimated": "^2.1.0",

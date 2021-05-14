@@ -18,9 +18,9 @@ export function DrawerContent(props) {
       </View>
       <TouchableOpacity
         style={styles.links}
-        //onPress={() => {
-         // props.navigation.navigate('StartScreen');
-        //}}
+        onPress={() => {
+          props.navigation.navigate('Home');
+        }}
         >
           <List.Icon color={Colors.black} icon="home" />
         <Text style={styles.text}>Home</Text>
@@ -169,6 +169,5 @@ const styles = StyleSheet.create({
   drawerhead:{
     width: 252,
     height: 145,
-    backgroundColor: ''
   } 
 });

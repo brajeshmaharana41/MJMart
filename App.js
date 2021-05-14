@@ -11,6 +11,7 @@ import RegisterScreen from './src/screens/RegisterScreen';
 import ResetPasswordScreen from './src/screens/ResetPasswordScreen';
 import Dashboard from './src/screens/Dashboard';
 import {DrawerContent} from './src/Drawer/DrawerContent';
+import Home from './src/screens/Home';
 import {Transition} from 'react-native-reanimated';
 
 const Drawer = createDrawerNavigator();
@@ -27,6 +28,7 @@ const MainPageNavigator = () => {
         <MainStack.Screen name="LoginScreen" component={LoginScreen} />
         <MainStack.Screen name="RegisterScreen" component={RegisterScreen} />
         <MainStack.Screen name="Dashboard" component={Dashboard} />
+        <MainStack.Screen name="Home" component={Home} />
         <MainStack.Screen
           name="ResetPasswordScreen"
           component={ResetPasswordScreen}
